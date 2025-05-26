@@ -1,1 +1,3 @@
-Solana txn monitoring scripts, discord trade opportunity notifications & analytics dashboard
+Significantly cuts down memecoin discovery research time with a collection of solana token monitoring scripts, discord trade opportunity notifications, and a analytics dashboard.
+
+[https://drive.google.com/file/d/1svwqFIUory55qCi300bO3CM-EVtkiifz/view?usp=sharing](demo video)
