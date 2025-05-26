@@ -1,0 +1,1058 @@
+[
+  {
+    "address": "3psH1Mj1f7yUfaD5gh6Zj7epE8hhrMkMETgv5TshQA4o",
+    "symbol": "boden",
+    "chain": "solana",
+    "order": 2
+  },
+  {
+    "address": "GtDZKAqvMZMnti46ZewMiXCa4oXF4bZxwQPoKzXPFxZn",
+    "symbol": "nub",
+    "chain": "solana",
+    "order": 76
+  },
+  {
+    "address": "0x6921B130D297cc43754afba22e5EAc0FBf8Db75b",
+    "symbol": "DOGINME",
+    "chain": "base",
+    "order": 3
+  },
+  {
+    "address": "EF23Avq2cTPnMVTfHacZ3SG5Z8misHmFA2gbt2rKqiYH",
+    "symbol": "whoren",
+    "chain": "solana",
+    "order": 4
+  },
+  {
+    "address": "G3q2zUkuxDCXMnhdBPujjPHPw9UTMDbXqzcc2UHM3jiy",
+    "symbol": "NICK",
+    "chain": "solana",
+    "order": 5
+  },
+  {
+    "address": "Ctaoh8SvvHMRkHSjFRLEv1iZnbYuWXcGyXx1s4Emoshh",
+    "symbol": "MUNCH",
+    "chain": "solana",
+    "order": 6
+  },
+  {
+    "address": "7njsg9BA1xvXX9DNpe5fERHK4zb7MbCHKZ6zsx5k3adr",
+    "symbol": "FAM",
+    "chain": "solana",
+    "order": 7
+  },
+  {
+    "address": "D8r8XTuCrUhLheWeGXSwC3G92RhASficV3YA7B2XWcLv",
+    "symbol": "BAG",
+    "chain": "solana",
+    "order": 8
+  },
+  {
+    "address": "ENoD8J2J6wNHkcJkvVBkwq5JMiR1oNBfBZRkoHCQogyT",
+    "symbol": "AABL",
+    "chain": "solana",
+    "order": 9
+  },
+  {
+    "address": "FEj9JuKq7JMLtvZF3EetVNd5ufU2vPA4ZDiVGaUbiRkj",
+    "symbol": "ALBEMARLE",
+    "chain": "solana",
+    "order": 10
+  },
+  {
+    "address": "CQSzJzwW5H1oyWrp6QhfUKYYwyovbSiVDKnAxNfb1tJC",
+    "symbol": "STAN",
+    "chain": "solana",
+    "order": 11
+  },
+  {
+    "address": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+    "symbol": "POPCAT",
+    "chain": "solana",
+    "order": 12
+  },
+  {
+    "address": "CPjDhhBpwEsLygNuczKcNwBPgMeni1xLomD48x51MyYU",
+    "symbol": "BENJI",
+    "chain": "solana",
+    "order": 13
+  },
+  {
+    "address": "nosXBVoaCTtYdLvKY6Csb4AC8JCdQKKAaWYtx2ZMoo7",
+    "symbol": "NOS",
+    "chain": "solana",
+    "order": 14
+  },
+  {
+    "address": "FU1q8vJpZNUrmqsciSjp8bAKKidGsLmouB8CBdf8TKQv",
+    "symbol": "tremp",
+    "chain": "solana",
+    "order": 15
+  },
+  {
+    "address": "8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB",
+    "symbol": "GME",
+    "chain": "solana",
+    "order": 16
+  },
+  {
+    "address": "45EgCwcPXYagBC7KqBin4nCFgEZWN7f3Y6nACwxqMCWX",
+    "symbol": "Moutai",
+    "chain": "solana",
+    "order": 17
+  },
+  {
+    "address": "DcUoGUeNTLhhzyrcz49LE7z3MEFwca2N9uSw1xbVi1gm",
+    "symbol": "KPOP",
+    "chain": "solana",
+    "order": 18
+  },
+  {
+    "address": "7NQSHjuEGENZDWfSvPZz7oP2D6c5Jc3LjFC6uh179ufr",
+    "symbol": "MOAI",
+    "chain": "solana",
+    "order": 19
+  },
+  {
+    "address": "HLwEJQVzs7SvjXuXpBTRHaLp5S6uWoWTUhLjJxBfy1c7",
+    "symbol": "LAPTOP",
+    "chain": "solana",
+    "order": 20
+  },
+  {
+    "address": "4vqYQTjmKjxrWGtbL2tVkbAU1EVAz9JwcYtd2VE3PbVU",
+    "symbol": "WYNN",
+    "chain": "solana",
+    "order": 21
+  },
+  {
+    "address": "6ogzHhzdrQr9Pgv6hZ2MNze7UrzBMAFyBBWUYp1Fhitx",
+    "symbol": "RETARDIO",
+    "chain": "solana",
+    "order": 22
+  },
+  {
+    "address": "FYa25XnBsXQXAdTnsyKBKd5gZ1VZhChBRF57CqfRxJZX",
+    "symbol": "monk",
+    "chain": "solana",
+    "order": 23
+  },
+  {
+    "address": "BgJW7U1u2RY5XJk9uYb5AqFRzjMtqE7pw3kaf9iw9Ntz",
+    "symbol": "$PELF",
+    "chain": "solana",
+    "order": 24
+  },
+  {
+    "address": "7DGJnYfJrYiP5CKBx6wpbu8F5Ya1swdFoesuCrAKCzZc",
+    "symbol": "MELON",
+    "chain": "solana",
+    "order": 25
+  },
+  {
+    "address": "9gwTegFJJErDpWJKjPfLr2g2zrE3nL1v5zpwbtsk3c6P",
+    "symbol": "USEDCAR",
+    "chain": "solana",
+    "order": 26
+  },
+  {
+    "address": "H7ed7UgcLp3ax4X1CQ5WuWDn6d1pprfMMYiv5ejwLWWU",
+    "symbol": "CHONKY",
+    "chain": "solana",
+    "order": 27
+  },
+  {
+    "address": "5Xf2LX3aVf1EAwZzEp848qox1PRpjALpYuVNar4KK3zG",
+    "symbol": "FROGDOG",
+    "chain": "solana",
+    "order": 28
+  },
+  {
+    "address": "A3eME5CetyZPBoWbRUwY3tSe25S6tb18ba9ZPbWk9eFJ",
+    "symbol": "PENG",
+    "chain": "solana",
+    "order": 29
+  },
+  {
+    "address": "5z3EqYQo9HiCEs3R84RCDMu2n7anpDMxRhdK8PSWmrRC",
+    "symbol": "PONKE",
+    "chain": "solana",
+    "order": 30
+  },
+  {
+    "address": "HhJpBhRRn4g56VsyLuT8DL5Bv31HkXqsrahTTUCZeZg4",
+    "symbol": "$MYRO",
+    "chain": "solana",
+    "order": 31
+  },
+  {
+    "address": "3ag1Mj9AKz9FAkCQ6gAEhpLSX8B2pUbPdkb9iBsDLZNB",
+    "symbol": "HONK",
+    "chain": "solana",
+    "order": 32
+  },
+  {
+    "address": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+    "symbol": "$WIF",
+    "chain": "solana",
+    "order": 33
+  },
+  {
+    "address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+    "symbol": "Bonk",
+    "chain": "solana",
+    "order": 34
+  },
+  {
+    "address": "WENWENvqqNya429ubCdR81ZmD69brwQaaBYY6p3LCpk",
+    "symbol": "WEN",
+    "chain": "solana",
+    "order": 35
+  },
+  {
+    "address": "7obg932wg2A1oTZhrPzR4DSdhKbjXzKSfHTBo2Hu5EbP",
+    "symbol": "LEH",
+    "chain": "solana",
+    "order": 36
+  },
+  {
+    "address": "63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9",
+    "symbol": "GIGA",
+    "chain": "solana",
+    "order": 37
+  },
+  {
+    "address": "2qmcZfyPpiFFx9kJPY9i7dM7Da6J5rVUvXzTsx1FJtfq",
+    "symbol": "VAPE",
+    "chain": "solana",
+    "order": 38
+  },
+  {
+    "address": "EaoaGA29T4BqYnomvzvriYMq1gah4ruPVx4xBFVmAENQ",
+    "symbol": "AIR",
+    "chain": "solana",
+    "order": 39
+  },
+  {
+    "address": "G3EfB4jKTuGc22bQoMLGTtTw4wFANxrNLk3SUcuuTKDh",
+    "symbol": "MOWER",
+    "chain": "solana",
+    "order": 40
+  },
+  {
+    "address": "BFpchrNVhyTRzMNAg9QkiZfRN2vqRBwcYoTX8qgkbDvm",
+    "symbol": "arab",
+    "chain": "solana",
+    "order": 41
+  },
+  {
+    "address": "HB2pjBPuquh1XGEVC1GCKepdh4daoJnkJiHFmaorfBWu",
+    "symbol": "Milady",
+    "chain": "solana",
+    "order": 42
+  },
+  {
+    "address": "M9i5xQz8Z2Ua3VHuBkjBSkP5HYwdetu7N9RP5VUsW4z",
+    "symbol": "BEAVER",
+    "chain": "solana",
+    "order": 43
+  },
+  {
+    "address": "3W52uCb8NW8ruMF9mmJX3oKiYAjdPai4633srsZFQCS6",
+    "symbol": "$BIAO",
+    "chain": "solana",
+    "order": 44
+  },
+  {
+    "address": "EXA537HSBVpsFijENbt6Muuy9AADUN8dUmYKD4oKbjJE",
+    "symbol": "EGG",
+    "chain": "solana",
+    "order": 45
+  },
+  {
+    "address": "EkHr62PC6Y1axrLS7cR8YC4BZeW19mtHxQLCLMrf9vnq",
+    "symbol": "CIRCLE",
+    "chain": "solana",
+    "order": 46
+  },
+  {
+    "address": "CQSPU12VppGZB7LeRkEaKzrRBzvo1LyA9mR2ydiwKHaL",
+    "symbol": "YE",
+    "chain": "solana",
+    "order": 47
+  },
+  {
+    "address": "2D7jZLpUUAMboqzHMeyaxZfLWpf4JZUoR4i82Zva7sxU",
+    "symbol": "GNOME",
+    "chain": "solana",
+    "order": 48
+  },
+  {
+    "address": "T1oYbAejEESrZLtSAjumAXhzFqZGNxQ4kVN9vPUoxMv",
+    "symbol": "$daumen",
+    "chain": "solana",
+    "order": 49
+  },
+  {
+    "address": "ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82",
+    "symbol": "BOME",
+    "chain": "solana",
+    "order": 50
+  },
+  {
+    "address": "7BgBvyjrZX1YKz4oh9mjb8ZScatkkwb8DzFx7LoiVkM3",
+    "symbol": "SLERF",
+    "chain": "solana",
+    "order": 51
+  },
+  {
+    "address": "947tEoG318GUmyjVYhraNRvWpMX7fpBTDQFBoJvSkSG3",
+    "symbol": "CHAT",
+    "chain": "solana",
+    "order": 52
+  },
+  {
+    "address": "HLptm5e6rTgh4EKgDpYFrnRHbjpkMyVdEeREEa2G7rf9",
+    "symbol": "DUKO",
+    "chain": "solana",
+    "order": 53
+  },
+  {
+    "address": "5LafQUrVco6o7KMz42eqVEJ9LW31StPyGjeeu5sKoMtA",
+    "symbol": "MUMU",
+    "chain": "solana",
+    "order": 54
+  },
+  {
+    "address": "9Ttyez3xiruyj6cqaR495hbBkJU6SUWdV6AmQ9MvbyyS",
+    "symbol": "smole",
+    "chain": "solana",
+    "order": 55
+  },
+  {
+    "address": "9ZMEz6nmr4RWs92ASFKxFGfKpWw8cbUp2ZP3EhdqwWPr",
+    "symbol": "BALLZ",
+    "chain": "solana",
+    "order": 56
+  },
+  {
+    "address": "4G86CMxGsMdLETrYnavMFKPhQzKTvDBYGMRAdVtr72nu",
+    "symbol": "$NAP",
+    "chain": "solana",
+    "order": 57
+  },
+  {
+    "address": "AHW5N8iqZobTcBepkSJzZ61XtAuSzBDcpxtrLG6KUKPk",
+    "symbol": "BENDOG",
+    "chain": "solana",
+    "order": 58
+  },
+  {
+    "address": "DLUNTKRQt7CrpqSX1naHUYoBznJ9pvMP65uCeWQgYnRK",
+    "symbol": "SOLC",
+    "chain": "solana",
+    "order": 59
+  },
+  {
+    "address": "2xP43MawHfU7pwPUmvkc6AUWg4GX8xPQLTGMkSZfCEJT",
+    "symbol": "NINJA",
+    "chain": "solana",
+    "order": 60
+  },
+  {
+    "address": "6dKCoWjpj5MFU5gWDEFdpUUeBasBLK3wLEwhUzQPAa1e",
+    "symbol": "CHEX",
+    "chain": "solana",
+    "order": 61
+  },
+  {
+    "address": "EYaJJKb2VDZuYKEWf5TjngFRc43cMgttPuRtcJwQt35z",
+    "symbol": "$BLEK",
+    "chain": "solana",
+    "order": 62
+  },
+  {
+    "address": "7jYfnjn3jHWmUhhgfkZ9uUEKroH3Zz1BvF8RmVQHm86D",
+    "symbol": "PNUT",
+    "chain": "solana",
+    "order": 63
+  },
+  {
+    "address": "6wUUYjt3gFT6QFQTTsGtP8GGN4VfmZmAjfsbdaCmGX9P",
+    "symbol": "Dank",
+    "chain": "solana",
+    "order": 64
+  },
+  {
+    "address": "GRFKaABC518SqXMvBpAVYUZtVT3Nj4mYk7E7xU4gA5Rg",
+    "symbol": "GOO",
+    "chain": "solana",
+    "order": 65
+  },
+  {
+    "address": "A7GJgPaRgLR9M7DjXnX78Ab2PWQ5rZhtLdj2qGAnZnZa",
+    "symbol": "MOONKE",
+    "chain": "solana",
+    "order": 66
+  },
+  {
+    "address": "BWhsvkyrUJqVvrAKjGYLpnTuUCG4SPEh6xVKcjnYCi27",
+    "symbol": "HMM",
+    "chain": "solana",
+    "order": 67
+  },
+  {
+    "address": "Fch1oixTPri8zxBnmdCEADoJW2toyFHxqDZacQkwdvSP",
+    "symbol": "HARAMBE",
+    "chain": "solana",
+    "order": 68
+  },
+  {
+    "address": "667w6y7eH5tQucYQXfJ2KmiuGBE8HfYnqqbjLNSw7yww",
+    "symbol": "ANDY",
+    "chain": "solana",
+    "order": 69
+  },
+  {
+    "address": "KdF3kjqSHbWXFstBLA2dccDxuNBi4o3yZqtMhB7k5dZ",
+    "symbol": "APEWIFHAT",
+    "chain": "solana",
+    "order": 70
+  },
+  {
+    "address": "9X2RHtKrBzw3SLYe9E88cBd1kz5RfU1f4JTSn4aRH43d",
+    "symbol": "SKID",
+    "chain": "solana",
+    "order": 71
+  },
+  {
+    "address": "BNT4uhSStq1beFADv3cq4wQAVfWB392PjAaxTBpNeWxu",
+    "symbol": "MEDIA",
+    "chain": "solana",
+    "order": 72
+  },
+  {
+    "address": "EAfDXdgSAAkLXbV5L7vaygHrxfJs4Y4Yu6hbP7raBZVT",
+    "symbol": "SOLPHIN",
+    "chain": "solana",
+    "order": 73
+  },
+  {
+    "address": "3bRTivrVsitbmCTGtqwp7hxXPsybkjn4XLNtPsHqa3zR",
+    "symbol": "LIKE",
+    "chain": "solana",
+    "order": 74
+  },
+  {
+    "address": "E1kvzJNxShvvWTrudokpzuc789vRiDXfXG3duCuY6ooE",
+    "symbol": "DITH",
+    "chain": "solana",
+    "order": 75
+  },
+  {
+    "address": "0x076431ef59ff83495935879ad2244A3ea4812b02",
+    "symbol": "BASED",
+    "chain": "base",
+    "order": 1
+  },
+  {
+    "address": "69kdRLyP5DTRkpHraaSZAQbWmAwzF9guKjZfzMXzcbAs",
+    "symbol": "USA",
+    "chain": "solana",
+    "order": 77
+  },
+  {
+    "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+    "symbol": "JUP",
+    "chain": "solana",
+    "order": 79
+  },
+  {
+    "address": "PUPS8ZgJ5po4UmNDfqtDMCPP6M1KP3EEzG9Zufcwzrg",
+    "symbol": "PUPS",
+    "chain": "solana",
+    "order": 80
+  },
+  {
+    "address": "BJB5tHWAHboMAwti5AHbCNX17F3jL8ehkh4zuTUx99Zn",
+    "symbol": "shork",
+    "chain": "solana",
+    "order": 81
+  },
+  {
+    "address": "DPctgrGiqi7oC25ipQgpwByLsRWV4Rv6X3R1A3U5vUQv",
+    "symbol": "$DOGE",
+    "chain": "solana",
+    "order": 82
+  },
+  {
+    "address": "BeebbdSP9ZvxTRbrBEt8ToMyA4Xkk1SzRvFqykr57ES7",
+    "symbol": "BEEBLE",
+    "chain": "solana",
+    "order": 83
+  },
+  {
+    "address": "28ZMDMK37zoGbHcgmWn7rb945siZrGbZEgZrG5U3dnVu",
+    "symbol": "meep",
+    "chain": "solana",
+    "order": 84
+  },
+  {
+    "address": "TNSRxcUxoT9xBG3de7PiJyTDYu7kskLqcpddxnEJAS6",
+    "symbol": "TNSR",
+    "chain": "solana",
+    "order": 85
+  },
+  {
+    "address": "6n7Janary9fqzxKaJVrhL9TG2F61VbAtwUMu1YZscaQS",
+    "symbol": "Hobbes",
+    "chain": "solana",
+    "order": 86
+  },
+  {
+    "address": "85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
+    "symbol": "W",
+    "chain": "solana",
+    "order": 87
+  },
+  {
+    "address": "5mbK36SZ7J19An8jFochhQS4of8g6BwUjbeCSxBSoWdp",
+    "symbol": "$michi",
+    "chain": "solana",
+    "order": 90
+  },
+  {
+    "address": "6D7NaB2xsLd7cauWu1wKk6KBsJohJmP2qZH9GEfVi5Ui",
+    "symbol": "SC",
+    "chain": "solana",
+    "order": 91
+  },
+  {
+    "address": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
+    "symbol": "INF",
+    "chain": "solana",
+    "order": 93
+  },
+  {
+    "address": "MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5",
+    "symbol": "MEW",
+    "chain": "solana",
+    "order": 94
+  },
+  {
+    "address": "2HvhTSeYMpQYBAPutC2eAKGap9hiGPwJeJsGCiTVFCyK",
+    "symbol": "CatParty",
+    "chain": "solana",
+    "order": 95
+  },
+  {
+    "address": "wo1zgt8rfrYpvdVi4nidoj1SYfcR4pQx69bmNv2JLhQ",
+    "symbol": "EGG",
+    "chain": "solana",
+    "order": 97
+  },
+  {
+    "address": "CUsEVhFGfjr2wwqjQFd7LrowYy6UhXY2HfAppUzTsihN",
+    "symbol": "HUMP",
+    "chain": "solana",
+    "order": 99
+  },
+  {
+    "address": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+    "symbol": "WBTC",
+    "chain": "solana",
+    "order": 100
+  },
+  {
+    "address": "9EYScpiysGnEimnQPzazr7Jn9GVfxFYzgTEj85hV9L6U",
+    "symbol": "tooker",
+    "chain": "solana",
+    "order": 101
+  },
+  {
+    "address": "GkKTgckaYe8BZx83XQByVgdZP6WEMBDzWM5zvS5u85ic",
+    "symbol": "PEP",
+    "chain": "solana",
+    "order": 103
+  },
+  {
+    "address": "8QiFCTauYaPdZmGVt53syMiHPFPv2VP7KVsGCTxUSudz",
+    "symbol": "HOBBESWIF",
+    "chain": "solana",
+    "order": 104
+  },
+  {
+    "address": "9NTkVivCVcgbMupQiyFMctQzBbbT2AfYaHh9jRTHkHSW",
+    "symbol": "UniCat",
+    "chain": "solana",
+    "order": 105
+  },
+  {
+    "address": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+    "symbol": "WETH",
+    "chain": "solana",
+    "order": 106
+  },
+  {
+    "address": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
+    "symbol": "RAY",
+    "chain": "solana",
+    "order": 110
+  },
+  {
+    "address": "Drs17Q9Jy5L6MzX8vATnXxvAd2bfbAWFyrcMAFVMYo7v",
+    "symbol": "QUACK",
+    "chain": "solana",
+    "order": 112
+  },
+  {
+    "address": "HXUQvWPWs7BJgzTeX3PyHb8fvFmxvi9Q9hHYzcMVxVbk",
+    "symbol": "BOMEOW",
+    "chain": "solana",
+    "order": 113
+  },
+  {
+    "address": "ZEUS1aR7aX8DFFJf5QjWj2ftDDdNTroMNGo8YoQm3Gq",
+    "symbol": "ZEUS",
+    "chain": "solana",
+    "order": 114
+  },
+  {
+    "address": "6ktDB8pro2WTCW1WkuevBWs4Jm4B9Y11iJL6TLvmEBey",
+    "symbol": "jotch",
+    "chain": "solana",
+    "order": 115
+  },
+  {
+    "address": "Adq3wnAvtaXBNfy63xGV1YNkDiPKadDT469xF9uZPrqE",
+    "symbol": "WIT",
+    "chain": "solana",
+    "order": 116
+  },
+  {
+    "address": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
+    "symbol": "PYTH",
+    "chain": "solana",
+    "order": 117
+  },
+  {
+    "address": "71SUn6LsUE8vc49FbekdP7wpmXGrQVspHwQHdRhm5hfg",
+    "symbol": "OJ",
+    "chain": "solana",
+    "order": 119
+  },
+  {
+    "address": "26KMQVgDUoB6rEfnJ51yAABWWJND8uMtpnQgsHQ64Udr",
+    "symbol": "HAMMY",
+    "chain": "solana",
+    "order": 120
+  },
+  {
+    "address": "7gbEP2TAy5wM3TmMp5utCrRvdJ3FFqYjgN5KDpXiWPmo",
+    "symbol": "DEVIN",
+    "chain": "solana",
+    "order": 121
+  },
+  {
+    "address": "2JcXacFwt9mVAwBQ5nZkYwCyXQkRcdsYrDXn6hj22SbP",
+    "symbol": "mini",
+    "chain": "solana",
+    "order": 122
+  },
+  {
+    "address": "9bxaVJmUwSc71j8Z2pvUL3UAr1s5fCnwUpvYhqV9jtmw",
+    "symbol": "MEWING",
+    "chain": "solana",
+    "order": 123
+  },
+  {
+    "address": "6Fb84TUdMNAVgwRinLeTgLov8dJnk5yhNt41Xq2a6s4c",
+    "symbol": "RIZZ",
+    "chain": "solana",
+    "order": 124
+  },
+  {
+    "address": "9SiKU8vnRiBYQSBff84K5zwG7habzwYVzn7KrtgCzNfg",
+    "symbol": "PEDRO",
+    "chain": "solana",
+    "order": 125
+  },
+  {
+    "address": "E2BGnzHdJNUBtAVR7EyQMuEMHqgv65JL8J9ZyqyXUVvA",
+    "symbol": "CHINA",
+    "chain": "solana",
+    "order": 126
+  },
+  {
+    "address": "EjmDTt8G3T725eFSV7oWmGD8J848guo3LZ1EB3RfwGSw",
+    "symbol": "harold",
+    "chain": "solana",
+    "order": 127
+  },
+  {
+    "address": "3WPep4ufaToK1aS5s8BL9inzeUrt4DYaQCiic6ZkkC1U",
+    "symbol": "GIKO",
+    "chain": "solana",
+    "order": 128
+  },
+  {
+    "address": "7jmaTFBooHkaSrBJDftu3LcK85KPtqWTCaFZCDxQV7ZW",
+    "symbol": "BOOMER",
+    "chain": "solana",
+    "order": 129
+  },
+  {
+    "address": "Av6qVigkb7USQyPXJkUvAEm4f599WTRvd75PUWBA9eNm",
+    "symbol": "COST",
+    "chain": "solana",
+    "order": 130
+  },
+  {
+    "address": "WskzsKqEW3ZsmrhPAevfVZb6PuuLzWov9mJWZsfDePC",
+    "symbol": "PUNDU",
+    "chain": "solana",
+    "order": 131
+  },
+  {
+    "address": "FvER7SsvY5GqAMawf7Qfb5MnUUmDdbPNPg4nCa4zHoLw",
+    "symbol": "PAJAMAS",
+    "chain": "solana",
+    "order": 132
+  },
+  {
+    "address": "4sp2EUDrQf46rZun6sYAWzjrXwUpx2T3njuoKmV766RJ",
+    "symbol": "HAMI",
+    "chain": "solana",
+    "order": 133
+  },
+  {
+    "address": "9iQBkyLKtqRXvb6ARGvQydt1LYgGcTtVe3PTDpWhdPze",
+    "symbol": "UNVAXSPERM",
+    "chain": "solana",
+    "order": 134
+  },
+  {
+    "address": "VP9UaBXLM4KYRvyjisu65rz8BU5xNAbewU7LVmyU2x4",
+    "symbol": "VCAT",
+    "chain": "solana",
+    "order": 135
+  },
+  {
+    "address": "8m9fjYycXAFva1kScttQgsESVZT7yELhjZASqfHBuMa5",
+    "symbol": "JOWNES",
+    "chain": "solana",
+    "order": 136
+  },
+  {
+    "address": "2nhjjqSkA8FYCUdJvQhYjbtZdPjZbNo8VtNKTkJ3hncb",
+    "symbol": "bunk",
+    "chain": "solana",
+    "order": 137
+  },
+  {
+    "address": "3Rcc6tMyS7ZEa29dxV4g3J5StorS9J1dn98gd42pZTk1",
+    "symbol": "MIMANY",
+    "chain": "solana",
+    "order": 138
+  },
+  {
+    "address": "7hWcHohzwtLddDUG81H2PkWq6KEkMtSDNkYXsso18Fy3",
+    "symbol": "CAT",
+    "chain": "solana",
+    "order": 139
+  },
+  {
+    "address": "acatzTjUeHDT3SoufN6NMxGUmBFtoqFHnFwusdw8kYX",
+    "symbol": "acat",
+    "chain": "solana",
+    "order": 140
+  },
+  {
+    "address": "864YJRb3JAVARC4FNuDtPKFxdEsYRbB39Nwxkzudxy46",
+    "symbol": "HABIBI",
+    "chain": "solana",
+    "order": 141
+  },
+  {
+    "address": "6tHCkrCTyqZQfyG9B73HFKcjixQSi3ezWW5E4sfc7UxT",
+    "symbol": "Tyrel",
+    "chain": "solana",
+    "order": 142
+  },
+  {
+    "address": "8nSQjm6SotxGDGkgBccKchRufynu5KRPBGkBEN4dDk2n",
+    "symbol": "AUS",
+    "chain": "solana",
+    "order": 143
+  },
+  {
+    "address": "B8AmDZRJeHuq8CPciey6jocq9p4ivc4ZurDXPwtqs2Qg",
+    "symbol": "Harold",
+    "chain": "solana",
+    "order": 144
+  },
+  {
+    "address": "3VTXWW93L1WRfQ7QDPjvfBQgzFRVqDgHPnc8vwQmEpUi",
+    "symbol": "99CENTS",
+    "chain": "solana",
+    "order": 145
+  },
+  {
+    "address": "A5LCTQ1vJECCQWSXJYs3rfCoexctbUgTCAEKDuNye8bZ",
+    "symbol": "GMEOW",
+    "chain": "solana",
+    "order": 146
+  },
+  {
+    "address": "BqhNdGtS1Nqtzi2MvZ7G8NN1vRuHZ12UpHGJKe71e1JT",
+    "symbol": "TRUMP",
+    "chain": "solana",
+    "order": 147
+  },
+  {
+    "address": "kit3zVeWba8xxV3DB4oFGsfFfTv8qadvRbbtXihuA3g",
+    "symbol": "SolKit",
+    "chain": "solana",
+    "order": 148
+  },
+  {
+    "address": "7DVKjqoKwAPFaaYPLAX5JNzWbMEZj7W7cF9Jb2cgepUE",
+    "symbol": "doeg",
+    "chain": "solana",
+    "order": 149
+  },
+  {
+    "address": "77KxtoRTXDperZpSkohH88ETyi5RUphZPpmGyk7UyCKA",
+    "symbol": "tuger",
+    "chain": "solana",
+    "order": 150
+  },
+  {
+    "address": "4uzQ98ShUaCWvQECp6hRgvfhQL2vP6BHAaXr5pQdLKuj",
+    "symbol": "SCHIZO",
+    "chain": "solana",
+    "order": 151
+  },
+  {
+    "address": "3NMRp22ARChFUd2xPtgVLzvf1gCfCjMwb1yjra3P3SB1",
+    "symbol": "KAREN",
+    "chain": "solana",
+    "order": 152
+  },
+  {
+    "address": "GgKDdEJ9n2NCHHonE5qSxVgPKGQNsbeXEkr1SHDLapPv",
+    "symbol": "KEKE",
+    "chain": "solana",
+    "order": 153
+  },
+  {
+    "address": "Grv3euomBTtHFSe27BoHTqd1vhV2Gxui9K3SPwKUqpQQ",
+    "symbol": "JEWS ",
+    "chain": "solana",
+    "order": 154
+  },
+  {
+    "address": "6Vp1zvJNz3mXqFZF71CWXLHZaU3wbmCRsixPzxBeAG4v",
+    "symbol": "unicat",
+    "chain": "solana",
+    "order": 155
+  },
+  {
+    "address": "CcFfGMU9Jodk6s5fSZM1vYGF3UNng7fZvTmPgzvU1ScF",
+    "symbol": "FCAT",
+    "chain": "solana",
+    "order": 156
+  },
+  {
+    "address": "7bQsj9DciGXs6cTkhB3D1WbcEjuMpmD7amQRWjEVBpu",
+    "symbol": "BCAT",
+    "chain": "solana",
+    "order": 157
+  },
+  {
+    "address": "9ZoH3ssTQBJNVidsLo49q3buDidreiZc9g3NeETP3F2s",
+    "symbol": "PONZI",
+    "chain": "solana",
+    "order": 158
+  },
+  {
+    "address": "8twuNzMszqWeFbDErwtf4gw13E6MUS4Hsdx5mi3aqXAM",
+    "symbol": "SB",
+    "chain": "solana",
+    "order": 159
+  },
+  {
+    "address": "8fZL148nnC168RAVCZh4PkjvMZmxMEfMLDhoziWVPnqf",
+    "symbol": "NiggaButt",
+    "chain": "solana",
+    "order": 160
+  },
+  {
+    "address": "4icEZCrEYNop2ZaMMCkRHaNzkt6xG9BpijMCQV7mpw6Z",
+    "symbol": "ROCKY",
+    "chain": "solana",
+    "order": 161
+  },
+  {
+    "address": "AdkfUZw9qqRwjDZSVr2imbNo8vhY8BDkkBa8YUDT5Djp",
+    "symbol": "PALMY",
+    "chain": "solana",
+    "order": 162
+  },
+  {
+    "address": "4y3oUrsJfSp431R3wJrWiaLxRPsnYtpkVJmoV2bYpBiy",
+    "symbol": "WIFE",
+    "chain": "solana",
+    "order": 163
+  },
+  {
+    "address": "7x4FgiFfeqzs1tiUNvJzpt47GtLXAJ8Jfn8G1Hyyu6JH",
+    "symbol": "SMILEK",
+    "chain": "solana",
+    "order": 164
+  },
+  {
+    "address": "CyJRzN4iavA2b9tQB2YMCMKYBcT9L5LSijLb5TeyqvLA",
+    "symbol": "SOLGUN",
+    "chain": "solana",
+    "order": 165
+  },
+  {
+    "address": "3Lec18q7nPM62LQwqXG2ddiBTDrFCiNw1NEA1ehBZPgB",
+    "symbol": "ANSEM",
+    "chain": "solana",
+    "order": 166
+  },
+  {
+    "address": "A5nvoNHLmJ4ydL5KroxphCX4umFwcn8VWb4kXm7L6sXn",
+    "symbol": "TEST",
+    "chain": "solana",
+    "order": 167
+  },
+  {
+    "address": "AB1e1rTGF8xSoYzXEwNWohuMHLCMrBoaSxT6AARmQksd",
+    "symbol": "TWOCAT",
+    "chain": "solana",
+    "order": 168
+  },
+  {
+    "address": "7Lsb2E5sXoeum4NeFmbFxiFVKxu2uroNDn95MYC7JzEX",
+    "symbol": "CATDEV",
+    "chain": "solana",
+    "order": 169
+  },
+  {
+    "address": "AbrMJWfDVRZ2EWCQ1xSCpoVeVgZNpq1U2AoYG98oRXfn",
+    "symbol": "Cheese",
+    "chain": "solana",
+    "order": 170
+  },
+  {
+    "address": "Fo6tfAkXj74X6j8hati8SxtwZHHcdGeqXVUPLP9Abvqu",
+    "symbol": "WALLY",
+    "chain": "solana",
+    "order": 171
+  },
+  {
+    "address": "3KroURETdWLyFReapbdh6nTWQgS7Y6rorLY8jb1pJXoM",
+    "symbol": "MOOSK",
+    "chain": "solana",
+    "order": 172
+  },
+  {
+    "address": "GJgHsc1HU4ibmzW6oWQr8L2RRT95ATc1BoNuLkp94AwU",
+    "symbol": "WBS",
+    "chain": "solana",
+    "order": 173
+  },
+  {
+    "address": "5CqfXex1knfRiozwDtgFFNaiGR9TsmSUcWDNUTUGZQru",
+    "symbol": "THOG",
+    "chain": "solana",
+    "order": 174
+  },
+  {
+    "address": "22513u2QwiY6xaJn7nVFWGKy3aBdw6WfZsRPW2RRtCKj",
+    "symbol": "HuntBoden",
+    "chain": "solana",
+    "order": 175
+  },
+  {
+    "address": "8CkiSHHJDHJV4LUoiRMLUhqG58cUkbyJRtcP4Z3mCXNf",
+    "symbol": "POWSCHE",
+    "chain": "solana",
+    "order": 176
+  },
+  {
+    "address": "36JQHwN2EgP9sKkCHn7axdpBxyLT8JUfiCnqHoy5r83R",
+    "symbol": "$Russia",
+    "chain": "solana",
+    "order": 177
+  },
+  {
+    "address": "ELQ1wXVCqEsicpr8ZLoXz7Gst8LUPPvUrvYaCYaUu6Tk",
+    "symbol": "PUSSIO",
+    "chain": "solana",
+    "order": 178
+  },
+  {
+    "address": "F23fFqpRNsmWjuUrFpfM1pvoVvMSpLuN6hY978Y1JXLt",
+    "symbol": "usdc",
+    "chain": "solana",
+    "order": 179
+  },
+  {
+    "address": "85vb4pd3gyVMxQ211ZBXXWQJwJ4xZPBC5AQXvnmb1HTi",
+    "symbol": "Blob",
+    "chain": "solana",
+    "order": 180
+  },
+  {
+    "address": "FaSJ3PKDjaHatJMgpC92cmhjcJxnc8sbTkpaPuTF3hW1",
+    "symbol": "PUN",
+    "chain": "solana",
+    "order": 181
+  },
+  {
+    "address": "7p6RjGNZ7HLHpfTo6nh21XYw4CZgxXLQPzKXG72pNd2y",
+    "symbol": "CIGGS",
+    "chain": "solana",
+    "order": 182
+  },
+  {
+    "address": "7AJ1KjzjstMnQGzZk1HAKx2atmvvRqWvmRbdYmnviryq",
+    "symbol": "XWH",
+    "chain": "solana",
+    "order": 183
+  },
+  {
+    "address": "FjtwiPH9gyffNX7mdE2ZS4s8hZRfZB2VRzyaKMNpaakS",
+    "symbol": "NAZA",
+    "chain": "solana",
+    "order": 184
+  },
+  {
+    "address": "9pPE1q9EW1bMQWbHmffrzUCfRr7S82UoxNUFfA6mAZC6",
+    "symbol": "KEYCAT",
+    "chain": "solana",
+    "order": 185
+  },
+  {
+    "address": "0x0bD4887f7D41B35CD75DFF9FfeE2856106f86670",
+    "symbol": "FRIEND",
+    "chain": "base",
+    "order": 186
+  },
+  {
+    "address": "0x9a26F5433671751C3276a065f57e5a02D2817973",
+    "symbol": "KEYCAT",
+    "chain": "base",
+    "order": 187
+  },
+  {
+    "address": "0xE3086852A4B125803C815a158249ae468A3254Ca",
+    "symbol": "$MFER",
+    "chain": "base",
+    "order": 188
+  }
+]

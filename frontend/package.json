@@ -1,0 +1,42 @@
+{
+  "name": "whale-dash-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fe": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@prisma/client": "^5.4.1",
+    "@tanstack/match-sorter-utils": "^8.11.8",
+    "@tanstack/react-table": "^8.14.0",
+    "@types/ms": "^0.7.32",
+    "@types/node": "20.8.3",
+    "@types/react": "18.2.25",
+    "chart.js": "^4.4.2",
+    "chartjs-plugin-zoom": "^2.0.1",
+    "eslint": "8.51.0",
+    "eslint-config-next": "13.5.4",
+    "lodash": "^4.17.21",
+    "next": "^13.5.4",
+    "prisma": "^5.4.1",
+    "react": "18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "18.2.0",
+    "react-grid-layout": "^1.4.4",
+    "react-resizable": "^3.0.5",
+    "tailwindcss": "3.3.3",
+    "ts-node": "^10.9.1",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.9",
+    "@types/node-fetch": "^2.6.11"
+  },
+  "author": "",
+  "license": "ISC"
+}

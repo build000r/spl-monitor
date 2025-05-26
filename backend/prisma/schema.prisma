@@ -1,0 +1,352 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("POSTGRES_PRISMA_URL") // uses connection pooling
+  directUrl = env("POSTGRES_PRISMA_URL") // uses a direct connection
+}
+
+model tokens_to_track {
+  address String @id
+  symbol  String?
+  chain String 
+  order   Int @unique @default(autoincrement())
+  predictions predictions[] @relation("token_predictions")
+  token_indicators indicators[] @relation("token_indicator")
+  token_details token_details[] @relation("token_details")
+  trader_segments segments[] @relation("segments_to_track")
+}
+
+model segments {
+  token tokens_to_track @relation("segments_to_track", fields: [address], references: [address])
+  id                  Int      @id @default(autoincrement())
+  whale_wallet_percent   Float
+  whale_bulls            Float
+  whale_bears            Float
+  whale_buy_volume_percent  Float
+  whale_sell_volume_percent Float
+  dolphin_wallet_percent   Float
+  dolphin_bulls            Float
+  dolphin_bears            Float
+  dolphin_buy_volume_percent  Float
+  dolphin_sell_volume_percent Float
+  fish_wallet_percent   Float
+  fish_bulls            Float
+  fish_bears            Float
+  fish_buy_volume_percent  Float
+  fish_sell_volume_percent Float
+  shrimp_wallet_percent   Float
+  shrimp_bulls            Float
+  shrimp_bears            Float
+  shrimp_buy_volume_percent  Float
+  shrimp_sell_volume_percent Float
+  total_buy_volume     Float
+  total_sell_volume    Float
+  start_time           Int
+  end_time             Int
+  address              String
+  period               String
+  start_price          Float
+  end_price            Float
+  price_change_percent Float
+
+  whale_bulls_percent_mean Float?
+  whale_bulls_std_dev Float?
+  whale_z_address Float?
+ 
+  whale_bulls_percent_mean_all_token_same_period Float?
+  whale_bulls_std_dev_all_token_same_period Float?
+  whale_z_period Float?
+
+  whale_wallet_net_mean Float?
+  whale_wallet_net_std_dev Float?
+  whale_wallet_net_z Float?  
+
+  whale_wallet_net_mean_all_token Float?
+  whale_wallet_net_std_dev_all_token Float?
+  whale_wallet_net_z_all_token Float?
+  // moose 
+  // percentage change tokens // outstanding tokens
+  token_buy_volume Float? // 
+  token_sell_volume Float?
+
+  holders Float?
+  mc Float? // moose get from birdeye api
+
+  // only traders that transacted within the time period 
+  new_traders_48h Int?
+  recurring_traders_48h Int?
+  new_trader_tokens_bought_48h Float?
+  new_trader_tokens_sold_48h Float?
+  reccuring_trader_tokens_bought_48h Float?
+  reccuring_trader_tokens_sold_48h Float?
+
+  trader_segment_classes   trader_segment_class[] // moose
+
+  net_tokens_8_period Float?
+  tokens_pct_change_8_period Float?
+  tokens_pct_change_z_score_8_period Float?
+
+  net_tokens_12_period Float?
+  tokens_pct_change_12_period Float?
+  tokens_pct_change_z_score_12_period Float?
+
+  net_tokens_16_period Float?
+  tokens_pct_change_16_period Float?
+  tokens_pct_change_z_score_16_period Float?
+
+  net_tokens_32_period Float?
+  tokens_pct_change_32_period Float?
+  tokens_pct_change_z_score_32_period Float?
+
+
+
+}
+
+model txns {
+  tx_hash   String 
+  owner_address String
+  block_unix_time Int
+  to_address     String
+  from_address   String
+  side  String 
+  price Float
+  units Float 
+
+  smoothed_price Float?
+
+  @@id([side, tx_hash])
+
+  @@index([block_unix_time])
+  @@index([to_address, side], name: "idx_to_address_side")
+  @@index([from_address, side], name: "idx_from_address_side")
+  @@index([smoothed_price])
+  @@index([owner_address])
+}
+
+// Big Moose Marshall
+model mat_mul {
+  token_address String @id
+  p0_whale_net Float
+}
+
+// Big Moose Marshall
+model score_matrix {
+  id String @id
+  token_address String
+  buy_time Float
+  end_time Float
+  percent_high Float?
+  percent_low Float?
+  score Float?
+  // add things here
+}
+
+// Conditions to know if not "new" trader:
+// if first_buy_unix or first_sell_unix is not null & before 48 hours ago
+// if sells > buys they go from before our data set
+// if holdings are significantly larger than buys-sells they go from before our data set
+
+// strat 1/ load in all the data 2/ hit api for times 3/ hit api for holdings
+
+// in segments then we want to check to see if the owner and asset exists,
+// create and check to see if the first buy or sell time is before 48 hours ago 
+// 
+
+// we can see if they are taking profit
+
+// firsts from API
+// latests from DB
+
+  // 1 segment many traders
+
+model trader_segment_class {
+  id Int @id @default(autoincrement())
+  owner_address String
+  token_balance Int // get from birdeye API portfolio balance
+  token_address String
+
+  class String // whale, dolphin, fish, shrimp
+  bull Boolean 
+
+  trader_type String // new, recurring
+
+  segment           segments @relation(fields: [segment_id], references: [id])
+  segment_id         Int
+
+  trader_asset_summary           trader_asset_summary @relation(fields: [trader_asset_summary_id], references: [id])
+  trader_asset_summary_id         Int
+
+  @@index([owner_address])
+  @@index([segment_id])
+  @@index([token_address])
+}
+
+// 
+model trader_asset_summary {
+  id Int @id @default(autoincrement())
+  owner_address String
+  asset_address String
+
+  // JUST DO IT ALL IN DB 
+  update_method String // "api", "db", "api_db"
+
+  first_txn_unix Int?
+  // asset specific
+  asset_holdings_token Float?
+  asset_holdings_usd Float?
+  
+  // wallet metrics
+  total_wallet_value_usd Float?
+  sol_token Float?
+  sol_usd_value Float
+
+  updated_at Int // blockunix time utc
+  trader_segment_classes trader_segment_class[]
+
+  @@index([owner_address, asset_address])
+  @@index([owner_address])
+  @@index([asset_address])
+  @@index([first_txn_unix])
+  @@index([updated_at])
+  @@index([update_method])
+  }
+
+model token_details {
+  token tokens_to_track @relation("token_details", fields: [address], references: [address])
+  address String @id
+  block_unix_time_last_update Int
+  // other details
+  decimals                  Int?
+  symbol                    String?
+  logoURI                   String?
+  liquidity                 Float?
+  price                     Float?
+  history30mPrice           Float?
+  priceChange30mPercent     Float?
+  history1hPrice            Float?
+  priceChange1hPercent      Float?
+  history2hPrice            Float?
+  priceChange2hPercent      Float?
+  history4hPrice            Float?
+  priceChange4hPercent      Float?
+  history6hPrice            Float?
+  priceChange6hPercent      Float?
+  history8hPrice            Float?
+  priceChange8hPercent      Float?
+  history12hPrice           Float?
+  priceChange12hPercent     Float?
+  history24hPrice           Float?
+  priceChange24hPercent     Float?
+  uniqueWallet30m           Int?
+  uniqueWalletHistory30m    Int?
+  uniqueWallet30mChangePercent Float?
+  uniqueWallet1h            Int?
+  uniqueWalletHistory1h     Int?
+  uniqueWallet1hChangePercent Float?
+  uniqueWallet2h            Int?
+  uniqueWalletHistory2h     Int?
+  uniqueWallet2hChangePercent Float?
+  uniqueWallet4h            Int?
+  uniqueWalletHistory4h     Int?
+  uniqueWallet4hChangePercent Float?
+  uniqueWallet6h            Int?
+  uniqueWalletHistory6h     Int?
+  uniqueWallet6hChangePercent Float?
+  uniqueWallet8h            Int?
+  uniqueWalletHistory8h     Int?
+  uniqueWallet8hChangePercent Float?
+  uniqueWallet12h           Int?
+  uniqueWalletHistory12h    Int?
+  uniqueWallet12hChangePercent Float?
+  uniqueWallet24h           Int?
+  uniqueWalletHistory24h    Int?
+  uniqueWallet24hChangePercent Float?
+  lastTradeUnixTime         Int?
+  lastTradeHumanTime        String?
+  supply                    Float?
+  mc                        Float?
+  trade30m                  Int?
+  tradeHistory30m           Int?
+  trade30mChangePercent     Float?
+  sell30m                   Int?
+  sellHistory30m            Int?
+  sell30mChangePercent      Float?
+  buy30m                    Int?
+  buyHistory30m             Int?
+  buy30mChangePercent       Float?
+  v30m                      Float?
+  v30mUSD                   Float?
+  vHistory30m               Float?
+  vHistory30mUSD            Float?
+  v30mChangePercent         Float?
+  vBuy30m                   Float?
+  vBuy30mUSD                Float?
+  vBuyHistory30m            Float?
+  vBuyHistory30mUSD         Float?
+  vBuy30mChangePercent      Float?
+  vSell30m                  Float?
+  vSell30mUSD               Float?
+  vSellHistory30m           Float?
+  vSellHistory30mUSD        Float?
+  vSell30mChangePercent     Float?
+  // Repeating this pattern for the 1h, 2h, 4h, 6h, 8h, 12h, and 24h intervals as required
+  // Example placeholder for additional intervals
+  trade1h                   Int?
+  // Continue for each specific interval as shown above
+  numberMarkets             Int?
+  coingeckoId               String?
+  serumV3Usdc               String?
+  serumV3Usdt               String?
+  website                   String?
+  telegram                  String?
+  twitter                   String?
+  description               String?
+  discord                   String?
+  medium                    String?
+}
+
+model predictions {
+  id Int @id @default(autoincrement())
+  token_address String 
+  method String
+  created_at String? // blockunix time
+  block_unix_timestamp Int?
+  current_price Float
+  predicted_price Float
+  target_hit Boolean
+  target_hit_time String // blockunix time
+
+  trailing_30_predicted_price Float?
+  trailing_30_direction Float? 
+  direction Float? // 1 for up, -1 for down, inbetween for how up or down
+  token tokens_to_track @relation("token_predictions", fields: [token_address], references: [address])
+}
+
+model indicators {
+  id Int @id @default(autoincrement())
+  token_address String 
+  side String // "buy" "sell"
+  method String // "buy strict", "buy whale", "etc"
+  period String // MUST COALINE WITH THE PERIOD 
+
+  created_at Int // when I MADE IT
+  block_unix_timestamp Int // WHEN the prediction was for MUST BE ON THE 6 HOURLY
+  price_at_prediction Float
+
+  // TODO continuously update the returns of this 
+  max_price_after_percentage Float?
+  min_price_after_percentage Float?
+
+  // "buy points" 
+  // "sell points"
+
+
+
+  token tokens_to_track @relation("token_indicator", fields: [token_address], references: [address])
+}

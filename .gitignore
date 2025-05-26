@@ -1,0 +1,7 @@
+frontend/.env
+frontend/.env*.local
+frontend/.env.local
+frontend/ca.cert
+frontend/node_modules
+frontend/.next
+frontend/node_modules

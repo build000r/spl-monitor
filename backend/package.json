@@ -1,0 +1,27 @@
+{
+  "name": "db-whale-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prizzy": "npx prisma generate && npx prisma db push",
+    "sol100": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "async-mutex": "^0.5.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "node-fetch": "^3.3.2",
+    "p-limit": "^5.0.0",
+    "pg": "^8.11.5",
+    "websocket": "^1.0.34"
+  },
+  "type": "module",
+  "devDependencies": {
+    "prisma": "^5.12.1"
+  }
+}
